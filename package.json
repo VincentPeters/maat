@@ -2,16 +2,34 @@
   "name": "@vincentpeters/maat",
   "version": "0.1.0",
   "description": "Maat, a fraud checker for student submissions: finds copied and AI-generated work in a Canvas export, locally.",
-  "keywords": ["plagiarism", "fraud", "education", "canvas", "dolos", "jplag"],
+  "keywords": [
+    "plagiarism",
+    "fraud",
+    "education",
+    "canvas",
+    "dolos",
+    "jplag"
+  ],
   "license": "MIT",
   "author": "Vincent Peters",
-  "repository": "github:VincentPeters/maat",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincentPeters/maat.git"
+  },
   "type": "module",
-  "bin": { "maat": "maat.js" },
+  "bin": {
+    "maat": "maat.js"
+  },
   "exports": "./maat.js",
-  "files": ["maat.js"],
-  "engines": { "node": ">=22.18" },
-  "scripts": { "test": "node test.js" },
+  "files": [
+    "maat.js"
+  ],
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
   "dependencies": {
     "fflate": "0.8.3",
     "sharp": "0.35.5"

@@ -1,4 +1,10 @@
-__pycache__/
+node_modules/
 *.html
 *.json
+!package.json
+!package-lock.json
 *_files/
+docs/inspiration/
+PRODUCT.md
+.playwright-mcp
+.impeccable
